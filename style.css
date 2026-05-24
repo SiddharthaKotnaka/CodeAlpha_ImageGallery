@@ -653,10 +653,61 @@ footer span {
    MOBILE MENU
 ========================= */
 
+/* =========================
+   MOBILE MENU
+========================= */
+
 .menu-toggle {
+
     display: none;
+
     font-size: 2rem;
+
+    color: white;
+
     cursor: pointer;
+
+    z-index: 2000;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav {
+
+        position: absolute;
+
+        top: 80px;
+        right: 20px;
+
+        background: rgba(0,0,0,0.95);
+
+        width: 220px;
+
+        border-radius: 15px;
+
+        padding: 20px;
+
+        display: none;
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    .nav-links {
+
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
 }
 
 .prev-btn,
