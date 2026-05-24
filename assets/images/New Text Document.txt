@@ -1,0 +1,50 @@
+        <!-- CARD 1 -->
+        <div class="gallery-card" data-category="travel">
+
+            <img src="assets/images/tirupati2.jpg" alt="Gallery Image">
+
+            <div class="overlay">
+
+                <h3>Tirupati Hills</h3>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="gallery-card" data-category="travel">
+
+            <img src="assets/images/tirupati3.jpg">
+
+            <div class="overlay">
+                <h3>Temple Route</h3>
+            </div>
+
+        </div>
+
+
+        <!-- CARD 2 -->
+        <div class="gallery-card" data-category="college">
+
+            <img src="assets/images/azura.jpg" alt="Gallery Image">
+
+            <div class="overlay">
+
+                <h3>AZURA 2K26</h3>
+
+            </div>
+
+        </div>
+
+
+        <div class="gallery-card" data-category="college">
+
+            <img src="assets/images/cmrcet.jpg">
+
+            <div class="overlay">
+                <h3>CMRCET</h3>
+            </div>
+
+        </div>
+
